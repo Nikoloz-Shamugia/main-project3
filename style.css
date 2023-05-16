@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    margin: 33px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-wrapper img{
+    width: 44px;
+}
+.logo-wrapper p{
+    font-size: 40px;
+    margin-left: 28px;
+}
+header nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+.logo-wrapper , nav ul{
+    display: flex;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+header button{
+    background-color:#087DBF;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.wrapper{
+    display: flex;
+    margin-top: 180px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-side{
+    width: 630px;
+}
+.left-side h1{
+    color: #087DBF;
+    font-size:50px;
+}
+.right-side img{
+    width: 400px;
+}
+.left-side-wrapper{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.info-wrapper p{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.info-wrapper2 p{
+    margin-top:15px;
+    margin-bottom: 35px;
+}
+.wrapper a{
+    color: #087DBF;
+     font-size: 25px;
+}
+footer nav ul{
+    display: flex;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+}
+footer span{
+    color: white;
+    font-size: 15px;
+}
+footer nav img{
+    margin-right: 10px;
+}
+.info-wrapper2{
+    max-width: 200px;
+}
+.links{
+    display: none;
+}
+@media (max-width : 1024px) {
+    .logo-wrapper p{
+        display: none;
+    }
+    .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-side-wrapper{
+        display: none;
+    }
+    .left-side h1{
+        text-align: center;
+    }
+    .right-side img{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    .links a{
+        font-size: 30px;
+        color: #087DBF;
+    }
+}

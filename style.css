@@ -33,10 +33,16 @@ header a{
     color: black;
     font-size: 18px;
 }
-header button{
+button{
+    padding: 10px 20px;
+    background-color: #087DBF;
+    border-radius : 150px;
+}
+.employees{
+    border: 1px solid black;
     background-color:#087DBF;
     padding: 5px 15px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .wrapper{
     display: flex;
@@ -75,14 +81,15 @@ footer nav ul{
     display: flex;
 }
 footer{
-    position: fixed;
-    bottom: 0;
     background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 112px;
+}
+.footer-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    width: 100%;
 }
 footer span{
     color: white;
@@ -125,3 +132,46 @@ footer nav img{
         color: #087DBF;
     }
 }
+.absolute{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #087DBF;
+    padding: 30px;
+    display: none;
+    top: 30%;
+    left: 40%;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+.grid h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.grid a{
+    color: white;
+    text-decoration: none;
+}
+.grid input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 30px;
+}
+.grid button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    width:50%;
+}
+::placeholder{
+    padding-left: 25px;
+}
+.link-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+  

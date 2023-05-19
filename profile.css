@@ -126,7 +126,7 @@ button{
     .logo-wrapper p{
         font-size: 25px;
     }
-    .table{
+    table{
         overflow-x: auto;
     }
 }
